@@ -1,0 +1,14 @@
+<h2>Login Page</h2>
+
+<from method="Post">
+    {% csrf_token %}
+
+    <input type="text" name="username" placeholder="username" />
+    <br /><br />
+    <input type="password" placeholder="password" />
+    <br /><br />
+
+    <button type="submit">Login</button>
+</from>
+
+<a href="/signup/">Signup</a>

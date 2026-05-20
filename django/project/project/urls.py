@@ -6,6 +6,7 @@ urlpatterns = [
     path('', include('myapp.urls')),
     path('about/', include('about.urls')),
     path('shop/', include('shop.urls')),
+    path('',include('acc.urls')),
 ]
 
 from django.conf import settings
